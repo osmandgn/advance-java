@@ -1,2 +1,4 @@
-package AdvanceJava.Enums;public class Empty {
+package AdvanceJava.Enums;
+
+public class Empty {
 }

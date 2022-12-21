@@ -1,2 +1,4 @@
-package AdvanceJava.FunctionalProgramming;public class Empty {
+package AdvanceJava.FunctionalProgramming;
+
+public class Empty {
 }
