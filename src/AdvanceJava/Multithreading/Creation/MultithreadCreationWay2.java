@@ -1,4 +1,4 @@
-package Multithreading.Creation;
+package AdvanceJava.Multithreading.Creation;
 
 public class MultithreadCreationWay2 {
     public static void main(String[] args) {

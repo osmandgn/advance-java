@@ -1,4 +1,4 @@
-package Multithreading.Synchronization;
+package AdvanceJava.Multithreading.Synchronization;
 
 public class CounterApp {
     static int num = 0;

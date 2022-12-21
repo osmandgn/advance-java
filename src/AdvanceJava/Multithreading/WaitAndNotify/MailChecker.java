@@ -1,4 +1,4 @@
-package Multithreading.WaitAndNotify;
+package AdvanceJava.Multithreading.WaitAndNotify;
 
 public class MailChecker {
     public static void main(String[] args) {
