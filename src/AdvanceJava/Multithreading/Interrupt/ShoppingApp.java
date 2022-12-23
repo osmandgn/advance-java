@@ -39,7 +39,7 @@ public class ShoppingApp {
         }else {
             System.out.println("You got the products new stock: " + stock);
         }
-    }
+    }// Example
 
     public void sleep(){
         try {
