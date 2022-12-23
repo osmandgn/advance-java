@@ -41,12 +41,5 @@ public class ShoppingApp {
         }
     }
 
-    public void sleep(){
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
 }
