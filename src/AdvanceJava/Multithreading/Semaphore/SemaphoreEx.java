@@ -30,18 +30,6 @@ class CarPark extends Thread {
         this.semaphore = semaphore;
     }
 
-    @Override
-    public void run() {
-        try {
-            System.out.println(Thread.currentThread().getName() + " Otoparka Girmeye Calisiyor");
-            semaphore.acquire(); // Giris izni istedik
-            System.out.println(Thread.currentThread().getName() + " otoparke girdi");
-            Thread.sleep(6000); // 6 saniye bekledi
-            semaphore.release(); // Isini bitirip cikis yapti
-            System.out.println(Thread.currentThread().getName() + " Cikis yapti");
 
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
     }
 }
