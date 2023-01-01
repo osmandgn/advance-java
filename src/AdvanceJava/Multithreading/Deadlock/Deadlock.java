@@ -16,15 +16,7 @@ public class Deadlock {
             }
         }).start();
 
-        new Thread(() -> {
-            synchronized (knife){
-                Thread.currentThread().setName("Tom");
-                System.out.println(Thread.currentThread().getName() + " is using Knife and waiting for Spoon");
-                synchronized (spoon){
-                    System.out.println(Thread.currentThread().getName() + " is using Spoon");
-                }
-            }
-        }).start();
+
 
 
     }
